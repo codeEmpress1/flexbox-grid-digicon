@@ -4,7 +4,6 @@
 } 
 html {
     box-sizing: border-box;
-    font-family: ;
 
 }
 
@@ -12,6 +11,7 @@ html {
      background: #fff;
      line-height: 1.4;
      color: #31384E;
+     font-family:  "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif";
  }
  .btn {
     background: transparent linear-gradient(106deg, #2655EE 0%, #34B3FF 100%);
