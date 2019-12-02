@@ -22,54 +22,60 @@
     <meta name="theme-color" content="#000000" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="" />
+    <link rel="stylesheet" href="/assets/css/style.css">
   </head>
   <body>
     <div class="wrapper">
       <section class="hero">
         
-        <nav class="main-nav" id="hide">
-          <img src="/assets/images/DIGISOL..svg" alt="">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contacts</a></li>
-        </ul>
-        <a href="#" class="btn" onclick="">Menu</a>
+        <nav class="main-nav container">
+         <div class="nav">
+            <img src="/assets/images/DIGISOL..svg" alt="">
+          <a href="#" class="btn" id="menu" onclick="show()"><b>Menu</b> </a>
+         </div>
+          <div id="links">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+          
         </nav>
-        <header class="mainsection">
+        <header class="mainsection container">
           <h1>Future Focused</h1>
           <h2>Marketing Agency</h2>
           <p>Grow your business and boost up sale.</p>
           <a href="#" class="btn">Explore us</a>
         </header>
-        <img src="/assets/images/Client logo.png" alt="Client Logo">
+        <img class ="container" src="/assets/images/Client logo.png" alt="Client Logo">
       </section>
 
-      <section id="section-a">
-        <p></p>
+      <section id="section-a" class="container">
+        <p>SERVICES</p>
         <h2>Our Agency Providing</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
            Alias hic saepe dicta corporis unde enim.
         </p>
       </section>
 
-      <section id="section-b">
-        <div class="box-b box-b1">
+      <section id="section-b" class="">
+        <div class="box-b">
           <img src="/assets/images/Group 444.svg" alt="Strategy" class="strat">
           <h2>BUSINESS STRATEGY</h2>
           <p>Lorem ipsum dolor sit consetetur diam sadipscing elitr,
              sed diam nonumy eirmod tempor invidunt aliquyam erat, sed diam
           </p>
         </div>
-        <div class="box-b box-b2">
+        <div class="box-b">
           <img src="/assets/images/Group 442.svg" alt="Analysis" class="anal">
           <h2>ADVANCE ANALYSIS</h2>
           <p>Lorem ipsum dolor sit consetetur diam sadipscing elitr,
              sed diam nonumy eirmod tempor invidunt aliquyam erat, sed diam
           </p>
         </div>
-        <div class="box-b box-b3">
+        <div class="box-b">
           <img src="/assets/images/Group 443.svg" alt="Marketing" class="cont">
           <h2>CONTENT MARKETING</h2>
           <p>Lorem ipsum dolor sit consetetur diam sadipscing elitr,
@@ -78,36 +84,38 @@
         </div>
       </section>
 
-      <section id="section-c">
+      <section id="section-c" class="container">
         <div class="box-c1">
           <div class="box-c1-img">
             <img src="/assets/images/Analysis illustration.svg" alt="">
           </div>
           <div class="box-c1-text">
-            <p class="ill-bold">Business opportunities </p>
+            <p class="ill-bold">Business Opportunity </p>
             <p class="ill-light">Analysis</p>
-            <p>
+            <p class="ill-text1">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                Commodi culpa quia libero perspiciatis harum,
                quos eius fuga neque quis nesciunt dignissimos nihil doloremque maxime esse!
             </p>
-            <p class="ill-text">Eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            <p class="ill-text2">Eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
                sed diam voluptua. At vero eos nonumy eirmod tempor.
             </p>
+            <a href="#">See More Information</a>
           </div>
         </div>
         <div class="box-c2">
             <div class="box-c2-text">
               <p class="ill-bold">Clients we propelled</p>
               <p class="ill-light">Sky High</p>
-              <p>
+              <p class="ill-text1">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Suscipit aliquam eaque repudiandae, modi illum quod aliquid,
                   eveniet veritatis qui ut possimus iure atque minus quibusdam.
               </p>
-              <p class="ill-text">Eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              <p class="ill-text2">Eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
                   sed diam voluptua. At vero eos nonumy eirmod tempor.
               </p>
+              <a href="#">See More Information</a>
             </div>
             <div class="box-c2-img">
                 <img src="/assets/images/Client sky high illustration.svg" alt="">
@@ -124,77 +132,113 @@
       </section>
 
       <section id="section-e">
-        <div class="card">
-          <img src="/assets/images/517904-PISH00-920.png" alt="">
-          <div>
+        <div class="flex">
+          <div class="card">
+            <img src="/assets/images/517904-PISH00-920.png" alt="">
+            <div class="card-text">
               <h3>Business Solution Process</h3>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                 sed diam nonumy eirmod. Eirmod tempor invint ut labore
-                </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="/assets/images/517904-PISH00-920.png" alt="">
-          <div>
-              <h3>Marketing Strategy</h3>
-              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                 sed diam nonumy eirmod. Eirmod tempor invint ut labore
-                </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="/assets/images/415468-PDXQUO-338.png" alt="">
-          <div>
-              <h3>How We Research Market?</h3>
-              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                 sed diam nonumy eirmod. Eirmod tempor invint ut labore
+                sed diam nonumy eirmod. Eirmod tempor invint ut labore
               </p>
           </div>
         </div>
-        <a href="#" class="btn more">See More</a>
+
+        <div class="card">
+          <img src="/assets/images/517904-PISH00-920.png" alt="">
+          <div class="card-text">
+            <h3>Marketing Strategy</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                sed diam nonumy eirmod. Eirmod tempor invint ut labore
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="/assets/images/415468-PDXQUO-338.png" alt="">
+          <div class="card-text">
+            <h3>How We Research Market?</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                sed diam nonumy eirmod. Eirmod tempor invint ut labore
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
       </section>
 
       <section id="section-f">
         <div class="members">
           <div class="mem1">
-
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                 sed diam nonumy eirmod tempor invidun
+            </p>
+            <div>
+                <img src="/assets/images/Path 499.svg" alt="">
+              <img src="/assets/images/Group 317.svg" alt="">
+              <h3>Mellisa Rozario</h3>
+              <p>Korma Inc.</p>
+            </div>
           </div>
 
           <div class="mem2">
-
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+               sed diam nonumy eirmod tempor invidun
+            </p>
+            <div>
+                <img src="/assets/images/Path 499.svg" alt="">
+                <img src="/assets/images/Group 317.svg" alt="">
+                <h3>Mellisa Rozario</h3>
+                <p>Korma Inc.</p>
+              </div>
           </div>
           <div class="mem3">
+            <p>
+               Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+               sed diam nonumy eirmod tempor invidun
+            </p>
+            <div class="img_grid">
+              <div>
 
+              </div>
+              <img src="/assets/images/Path 499.svg" alt="">
+              <img src="/assets/images/Group 317.svg" alt="">
+              <h3>Mellisa Rozario</h3>
+              <p>Korma Inc.</p>
+              </div>
           </div>
           <div class="awesome">
-            <p>
+            <h2>
               <span>Some Awesome</span><br>
               <span>Word</span>
-            </p>
-            <span > <hr style="height: 5px; width: 2em; background: red;"> </span>
+            </h2>
+            <span > <hr> </span>
           </div>
         </div>
 
-        <div class="message">
+        <div class="message container">
           <div class="msg-form">
             <form action="">
                 <input type="mail" placeholder="Your mail*" required>
                 <input type="text" placeholder="Subject*" required>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <a href="#" class="btn">Send Request</a>
+                <textarea placeholder="Message" cols="30" rows="10"></textarea>
               </form>
+              <a href="#" class="btn">Send Request</a>
           </div>
           <div class="msg-intro">
-            <p>
+            <h2>
              <span>Let's Talk about</span><br>
             <span>Everything!</span>
+            </h2>
+            <span><hr></span>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                diam voluptua. At vero eos
             </p>
-            <span > <hr style="height: 5px; width: 2em; background: red;"> </span>
-            <p></p>
           </div>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-           sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-           diam voluptua. At vero eos
+          
         </div>
       </section>
 
@@ -202,27 +246,29 @@
         <h2 class="subscribe"> <span>Subscribe Newsletter & Get</span><br>
           <span>Resources</span>
         </h2>
-        <input type="mail" name="" id="">
-        <a href="#" class="btn">Subscribe</a>
+        <form action="">
+          <input type="mail" placeholder="Email">
+          <a href="#" class="btn">Subscribe</a>
+        </form>
       </section>
 
       <section id="section-h">
-        <div>
+        <div class="h-flex">
           <img src="/assets/images/Group 447.svg" alt="logo">
           <p>digisol.co@mail.com</p>
           <p>087-552.485.65</p>
         </div>
-        <div>
+        <div class="h-flex">
           <h3>Services</h3>
           <ul>
             <li><a href="#">Digital Marketing</a></li>
             <li><a href="#">Business Analysis</a></li>
             <li><a href="#">Content</a></li>
             <li><a href="#">Wordpress</a></li>
-            <li><a href="#"></a>Social Activation</li>
+            <li><a href="#">Social Activation</a></li>
           </ul>
         </div>
-        <div>
+        <div class="h-flex">
             <h3>About Us</h3>
             <ul>
               <li><a href="#">About</a></li>
@@ -231,16 +277,18 @@
               <li><a href="#">Privacy Policy</a></li>
             </ul>
         </div>
-        <div>
+        <div class="h-flex"> 
             <h3>Our Address</h3>
             <p>59/B Jonson Road Ave,<br> New York, USA</p>
             <p>Email: support@digi.com</p>
         </div>
+        <hr class="footer-divider">
       </section>
 
       <footer>
-        <p>Designed with love and CSS by @curlybraces. Copyright DevHal &copy; 2019.</p>
+        <p>Designed with love and CSS by @curlybraces.  Copyright DevHal &copy; 2019.</p>
       </footer>
     </div>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
